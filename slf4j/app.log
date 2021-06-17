@@ -1,0 +1,23 @@
+2021-06-15 13:24:40,898 INFO com.dhamaka.slf4j.Slf4jApplication [main] Starting Slf4jApplication using Java 16.0.1 on ITBL-MAC-14s-MacBook-Pro.local with PID 1696 (/Users/itbl-mac-14/Documents/DEV/slf4j/target/classes started by itbl-mac-14 in /Users/itbl-mac-14/Documents/DEV/slf4j)
+2021-06-15 13:24:40,899 DEBUG com.dhamaka.slf4j.Slf4jApplication [main] Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-15 13:24:40,899 INFO com.dhamaka.slf4j.Slf4jApplication [main] No active profile set, falling back to default profiles: default
+2021-06-15 13:24:41,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-15 13:24:41,750 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-15 13:24:41,750 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-15 13:24:41,787 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-15 13:24:41,787 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 838 ms
+2021-06-15 13:24:42,168 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-15 13:24:42,197 INFO com.dhamaka.slf4j.Slf4jApplication [main] Started Slf4jApplication in 1.708 seconds (JVM running for 7.465)
+2021-06-15 13:25:41,572 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 13:25:41,574 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-15 13:25:41,578 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2021-06-15 13:25:41,597 ERROR com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-1] Error message
+2021-06-15 13:25:41,598 WARN com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-1] Warning message
+2021-06-15 13:25:41,598 INFO com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-1] Info message
+2021-06-15 13:25:41,598 DEBUG com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-1] Debug message
+2021-06-15 13:25:41,598 TRACE com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-1] Trace message
+2021-06-15 13:25:42,887 ERROR com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-2] Error message
+2021-06-15 13:25:42,887 WARN com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-2] Warning message
+2021-06-15 13:25:42,887 INFO com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-2] Info message
+2021-06-15 13:25:42,887 DEBUG com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-2] Debug message
+2021-06-15 13:25:42,888 TRACE com.dhamaka.slf4j.slf4j_controller [http-nio-8080-exec-2] Trace message
